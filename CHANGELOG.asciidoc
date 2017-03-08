@@ -26,7 +26,7 @@ image::https://raw.githubusercontent.com/apache/tinkerpop/master/docs/static/ima
 TinkerPop 3.2.5 (Release Date: NOT OFFICIALLY RELEASED YET)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Added `ScopingStrategy` which will computer and provide all `Scoping` steps with the path labels of the global `Traversal`.
+* `LABELED_PATH` requirement is now set if any step in the traversal is labeled.
 * Split `ComputerVerificationStrategy` into two strategies: `ComputerVerificationStrategy` and `ComputerFinalizationStrategy`.
 * Removed `HasTest.g_V_hasId_compilationEquality` from process test suite as it makes too many assumptions about provider compilation.
 * Deprecated `CustomizerProvider` infrastructure.
